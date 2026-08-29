@@ -117,7 +117,7 @@ ul { list-style: none; }
 .nav-mobile {
   display: none;
   flex-direction: column;
-  position: absolute;
+  position: fixed;
   top: var(--nav-height);
   right: 1rem;
   left: auto;
