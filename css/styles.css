@@ -60,7 +60,6 @@ ul { list-style: none; }
   z-index: 1000;
   background: transparent;
   transition: background var(--transition), box-shadow var(--transition);
-  overflow: visible;
 }
 .navbar.scrolled {
   background: var(--navy);

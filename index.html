@@ -90,11 +90,10 @@
       height: 100vh;
       min-height: 620px;
       display: flex;
-      align-items: center;
+      align-items: flex-start;
       justify-content: center;
       text-align: center;
       overflow: hidden;
-      padding-top: var(--nav-height);
     }
     .hero-bg {
       position: absolute;
@@ -111,7 +110,7 @@
     .hero-content {
       position: relative;
       z-index: 1;
-      padding: 0 1.5rem;
+      padding: calc(var(--nav-height) + 3rem) 1.5rem 2rem;
       max-width: 820px;
     }
     .hero-eyebrow {
