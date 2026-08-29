@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Stratech Project Solutions Limited | EPICC Engineering Nigeria</title>
+  <meta name="description" content="Stratech Project Solutions Limited is Nigeria's premier EPICC service provider — delivering oil storage tank farms, LPG terminals, civil foundations, and turnaround maintenance across Nigeria and West Africa." />
+  <meta name="keywords" content="EPICC company Nigeria, tank farm construction Lagos, LPG terminal construction Nigeria, engineering company Ikeja Lagos, NUPRC registered contractor, oil storage tank fabrication, stone column piling Nigeria, turnaround maintenance TAM" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://www.stratech.com.ng/index.html" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Stratech Project Solutions Limited | EPICC Engineering Nigeria" />
+  <meta property="og:description" content="Premier Nigerian EPICC contractor — tank farms, LPG terminals, civil foundations, and turnaround maintenance across Nigeria and West Africa." />
+  <meta property="og:url" content="https://www.stratech.com.ng/" />
+  <meta property="og:image" content="https://www.stratech.com.ng/images/huge_tank_view.jpg" />
+  <meta property="og:site_name" content="Stratech Project Solutions Limited" />
+
+  <link rel="icon" href="images/favicon.png" type="image/png" />
+  <link rel="stylesheet" href="css/styles.css" />
+
+  <!-- Schema.org LocalBusiness + Organization -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": ["Organization", "LocalBusiness"],
+    "name": "Stratech Project Solutions Limited",
+    "alternateName": "Stratech Project Solutions",
+    "description": "Premier Nigerian EPICC service provider specializing in oil storage tank farms, LPG terminals, civil foundations, floating roof installation, and turnaround maintenance across Nigeria and West Africa.",
+    "url": "https://www.stratech.com.ng",
+    "logo": "https://www.stratech.com.ng/images/logo.png",
+    "image": "https://www.stratech.com.ng/images/huge_tank_view.jpg",
+    "foundingDate": "2017",
+    "legalName": "Stratech Project Solutions Limited",
+    "taxID": "RC1480656",
+    "slogan": "Providing that professional touch...",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "15 Ajao Road off Adeniyi Jones Avenue",
+      "addressLocality": "Ikeja",
+      "addressRegion": "Lagos State",
+      "addressCountry": "NG"
+    },
+    "contactPoint": [
+      {
+        "@type": "ContactPoint",
+        "telephone": "+234-806-138-0411",
+        "contactType": "customer service",
+        "areaServed": "NG"
+      },
+      {
+        "@type": "ContactPoint",
+        "telephone": "+234-806-933-2789",
+        "contactType": "customer service",
+        "areaServed": "NG"
+      },
+      {
+        "@type": "ContactPoint",
+        "email": "stratechprojectsolutions@gmail.com",
+        "contactType": "customer service"
+      }
+    ],
+    "sameAs": [
+      "https://www.stratech.com.ng"
+    ],
+    "areaServed": [
+      "Nigeria", "Ghana", "West Africa"
+    ],
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "EPICC Engineering Services",
+      "itemListElement": [
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Engineering & Technical Design (FEED/DED)"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Tank Farm & LPG Terminal Construction"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Civil & Geotechnical Engineering"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Floating Roof Installation"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Maintenance & Turnaround (TAM)"}}
+      ]
+    }
+  }
+  </script>
+
+  <style>
+    /* ---- HERO ---- */
+    .hero {
+      position: relative;
+      height: 100vh;
+      min-height: 620px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      overflow: hidden;
+    }
+    .hero-bg {
+      position: absolute;
+      inset: 0;
+      width: 100%; height: 100%;
+      object-fit: cover;
+      object-position: center;
+    }
+    .hero-overlay {
+      position: absolute;
+      inset: 0;
+      background: var(--overlay);
+    }
+    .hero-content {
+      position: relative;
+      z-index: 1;
+      padding: 0 1.5rem;
+      max-width: 900px;
+    }
+    .hero-eyebrow {
+      font-family: var(--font-accent);
+      font-size: 0.75rem;
+      font-weight: 600;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--blue);
+      margin-bottom: 1.4rem;
+      display: block;
+    }
+    .hero-content h1 {
+      font-family: var(--font-heading);
+      font-size: clamp(3.2rem, 8vw, 7rem);
+      line-height: 1;
+      letter-spacing: 0.03em;
+      color: var(--white);
+    }
+    .hero-content h1 span { color: var(--orange); }
+    .hero-sub {
+      font-family: var(--font-accent);
+      font-size: clamp(0.88rem, 2vw, 1.05rem);
+      color: rgba(255,255,255,0.72);
+      line-height: 1.75;
+      margin: 1.4rem auto 2.4rem;
+      max-width: 640px;
+    }
+    .hero-btns { display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; }
+
+    .scroll-down {
+      position: absolute;
+      bottom: 2.5rem;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 6px;
+    }
+    .scroll-down span {
+      display: block;
+      width: 1px;
+      height: 50px;
+      background: linear-gradient(to bottom, transparent, rgba(255,255,255,0.5));
+      animation: scrollline 1.8s ease-in-out infinite;
+    }
+    @keyframes scrollline {
+      0%   { transform: scaleY(0); transform-origin: top; }
+      50%  { transform: scaleY(1); transform-origin: top; }
+      51%  { transform: scaleY(1); transform-origin: bottom; }
+      100% { transform: scaleY(0); transform-origin: bottom; }
+    }
+
+    /* ---- FEATURED PROJECTS (alternating splits) ---- */
+    .project-split {
+      padding: 5rem 5%;
+      border-bottom: 1px solid var(--navy-border);
+    }
+    .project-split:last-child { border-bottom: none; }
+    .project-split .split { max-width: var(--max-width); margin: 0 auto; }
+    .project-split-text { display: flex; flex-direction: column; gap: 1rem; }
+    .project-scope {
+      display: inline-block;
+      font-family: var(--font-accent);
+      font-size: 0.72rem;
+      font-weight: 600;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--orange);
+      border: 1px solid var(--orange);
+      border-radius: 3px;
+      padding: 0.2rem 0.7rem;
+      align-self: flex-start;
+    }
+    .project-split-text h3 {
+      font-family: var(--font-heading);
+      font-size: clamp(1.6rem, 3vw, 2.4rem);
+      letter-spacing: 0.03em;
+      line-height: 1.1;
+      color: var(--white);
+    }
+    .project-split-text p {
+      font-size: 0.92rem;
+      color: var(--grey-text);
+      line-height: 1.8;
+    }
+    .project-client {
+      font-family: var(--font-accent);
+      font-size: 0.8rem;
+      color: var(--blue);
+      font-weight: 600;
+      letter-spacing: 0.05em;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ===================== NAVBAR ===================== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-logo">
+      <a href="index.html"><img src="images/logo.png" alt="Stratech Project Solutions" /></a>
+    </div>
+    <ul class="nav-links">
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="contact.html" class="btn-quote">Get A Quote</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <div class="nav-mobile" id="nav-mobile">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="services.html">Services</a>
+    <a href="contact.html">Contact</a>
+    <a href="contact.html" class="btn-quote">Get A Quote</a>
+  </div>
+
+  <!-- ===================== HERO ===================== -->
+  <section class="hero">
+    <img src="images/huge_tank_view.jpg" alt="Stratech engineering project" class="hero-bg" />
+    <div class="hero-overlay"></div>
+    <div class="hero-content reveal">
+      <span class="hero-eyebrow">EPICC Service Provider &nbsp;·&nbsp; NUPRC Registered &nbsp;·&nbsp; NMDPRA Certified</span>
+      <h1>Engineering Excellence<br />in <span>Energy &amp;</span><br />Infrastructure</h1>
+      <p class="hero-sub">Delivering turnkey Front End Engineering Design, high-capacity oil storage tank farms, LPG terminals, and heavy industrial construction across Nigeria and West Africa.</p>
+      <div class="hero-btns">
+        <a href="contact.html" class="btn btn-orange">Request Project Consultation</a>
+        <a href="about.html" class="btn btn-outline-white">Explore Our Track Record</a>
+      </div>
+    </div>
+    <div class="scroll-down"><span></span></div>
+  </section>
+
+  <!-- ===================== ABOUT STRIP ===================== -->
+  <section class="section section-light">
+    <div class="split reveal">
+      <img src="images/entrance_to_plant.jpg" alt="Stratech plant entrance" class="split-img" />
+      <div class="split-text">
+        <span class="section-label">Who We Are</span>
+        <h2 class="section-title">Providing That Professional Touch to Complex Infrastructure</h2>
+        <div class="divider"></div>
+        <p>Stratech Project Solutions Limited is a premier Nigerian Engineering, Procurement, Installation, Construction, and Commissioning (EPICC) service provider. Founded in 2017 and incorporated in 2018, we combine rigorous technical expertise with modern engineering software to deliver complex oil and gas storage terminals, pipelines, civil infrastructure, and specialized turnaround maintenance.</p>
+        <p>From initial feasibility design to final mechanical commissioning, we ensure seamless execution with zero safety compromises.</p>
+        <div class="badges">
+          <span class="badge">NUPRC Registered</span>
+          <span class="badge">NMDPRA Certified</span>
+          <span class="badge">RC: 1480656</span>
+        </div>
+        <a href="about.html" class="btn btn-blue" style="align-self:flex-start;">Read Our Full Corporate Profile</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== SERVICES OVERVIEW ===================== -->
+  <section class="section section-navy">
+    <div class="container">
+      <div class="section-header center reveal">
+        <span class="section-label">What We Do</span>
+        <h2 class="section-title">Core EPICC Service Offerings</h2>
+        <div class="divider center"></div>
+        <p class="section-sub">End-to-end technical execution across the full project lifecycle</p>
+      </div>
+      <div class="grid-4">
+        <div class="card reveal">
+          <div class="card-tag">ENGINEERING</div>
+          <h3>Engineering &amp; Technical Design</h3>
+          <p>Feasibility studies, Front-End Engineering Design (FEED), Detailed Engineering Design (DED), 2D/3D AutoCAD drafting, and as-built documentation.</p>
+        </div>
+        <div class="card reveal">
+          <div class="card-tag">CONSTRUCTION</div>
+          <h3>Tank Farm &amp; LPG Terminal Construction</h3>
+          <p>Heavy mechanical construction of crude, base oil, LPG, and white product storage tanks up to 28.5m+ diameter with floating and fixed roofs.</p>
+        </div>
+        <div class="card reveal">
+          <div class="card-tag">CIVIL</div>
+          <h3>Civil &amp; Foundation Engineering</h3>
+          <p>Stone column ground improvement, CFA piling, concrete ring beam tank foundations, dike walls, weighbridges, and heavy industrial paving.</p>
+        </div>
+        <div class="card reveal">
+          <div class="card-tag">MAINTENANCE</div>
+          <h3>Maintenance &amp; Turnaround (TAM)</h3>
+          <p>Tank cleaning, sludge evacuation, NDT testing, pipeline hydro-testing, structural re-jacking, sandblasting and protective painting.</p>
+        </div>
+      </div>
+      <div style="text-align:center; margin-top:3rem;">
+        <a href="services.html" class="btn btn-blue reveal">View All Services</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== FEATURED PROJECTS ===================== -->
+  <section class="section-card" style="padding-top:5rem; padding-bottom:2rem;">
+    <div class="container">
+      <div class="section-header reveal" style="padding: 0 0 1rem;">
+        <span class="section-label">Our Work</span>
+        <h2 class="section-title">Proven Execution in<br />High-Stakes Environments</h2>
+        <div class="divider"></div>
+      </div>
+    </div>
+
+    <!-- Project 1 — image left -->
+    <div class="project-split">
+      <div class="split reveal">
+        <img src="images/tank1.jpg" alt="28.5m Storage Tank Apapa Lagos" class="split-img" />
+        <div class="project-split-text">
+          <span class="project-scope">PC · 2023</span>
+          <h3>Fabrication &amp; Commissioning of 28.5m Storage Tank — Apapa, Lagos</h3>
+          <p>Fabrication, welding, non-destructive testing (NDT), and full commissioning of a 28.5m diameter × 15m high storage tank for petroleum products. Executed to API 650 standards.</p>
+          <span class="project-client">Client: NNPC Retail Limited / OVH Energy Marketing</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project 2 — image right -->
+    <div class="project-split">
+      <div class="split img-right reveal">
+        <div class="project-split-text">
+          <span class="project-scope">EPIC/C · 2022</span>
+          <h3>LPG Bulk Storage Terminal — Accra, Ghana</h3>
+          <p>Construction supervision and full EPICC execution for a 10,000 MT LPG Bulk Storage and Multi-Bay Depot Facility. Stratech's first international project — delivered on schedule.</p>
+          <span class="project-client">Client: Matrix Energy Limited</span>
+        </div>
+        <img src="images/project.jpg" alt="LPG Bulk Storage Terminal Accra Ghana" class="split-img" />
+      </div>
+    </div>
+
+    <!-- Project 3 — image left -->
+    <div class="project-split">
+      <div class="split reveal">
+        <img src="images/project2.jpg" alt="Twin Breasting Dolphins Ijegun Egbe" class="split-img" />
+        <div class="project-split-text">
+          <span class="project-scope">EPC · 2024</span>
+          <h3>Design &amp; Construction of Twin Breasting Dolphins — Ijegun Egbe, Lagos</h3>
+          <p>Full EPC delivery of twin marine breasting dolphins for vessel berthing operations. Structural design, piling, and concrete works executed to marine engineering standards.</p>
+          <span class="project-client">Client: AA Rano Nigeria Limited</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project 4 — image right -->
+    <div class="project-split">
+      <div class="split img-right reveal">
+        <div class="project-split-text">
+          <span class="project-scope">PC · 2020–2022</span>
+          <h3>Stone Column Soil Improvement &amp; Tank Erection — Lekki Free Zone, Lagos</h3>
+          <p>Hydraulic rotary stone column ground improvement, concrete ring beam tank foundations, and full mechanical erection of storage tanks at the Lekki Free Zone terminal.</p>
+          <span class="project-client">Client: Pinnacle Oil &amp; Gas FZE</span>
+        </div>
+        <img src="images/project3.jpg" alt="Stone Column Tank Erection Lekki" class="split-img" />
+      </div>
+    </div>
+
+    <div style="text-align:center; padding: 3rem 0 5rem;">
+      <a href="about.html" class="btn btn-orange reveal">See All Projects &amp; Clients</a>
+    </div>
+  </section>
+
+  <!-- ===================== CLIENTS TICKER ===================== -->
+  <section class="section section-navy" style="padding-top:5rem; padding-bottom:5rem;">
+    <div class="container">
+      <div class="section-header center reveal" style="margin-bottom:2.5rem;">
+        <span class="section-label">Our Clients</span>
+        <h2 class="section-title">Trusted by Industry Leaders Across West Africa</h2>
+        <div class="divider center"></div>
+      </div>
+    </div>
+    <div class="clients-ticker">
+      <div class="ticker-track">
+        <span class="ticker-item">Matrix Energy Limited</span>
+        <span class="ticker-dot">·</span>
+        <span class="ticker-item">NNPC Retail Limited</span>
+        <span class="ticker-dot">·</span>
+        <span class="ticker-item">OVH Energy Marketing</span>
+        <span class="ticker-dot">·</span>
+        <span class="ticker-item">Pinnacle Oil &amp; Gas FZE</span>
+        <span class="ticker-dot">·</span>
+        <span class="ticker-item">AA Rano Nigeria Limited</span>
+        <span class="ticker-dot">·</span>
+        <span class="ticker-item">Aida Energy Limited</span>
+        <span class="ticker-dot">·</span>
+        <span class="ticker-item">Salbas Oil &amp; Gas</span>
+        <span class="ticker-dot">·</span>
+        <span class="ticker-item">Keonamex Petroleum</span>
+        <span class="ticker-dot">·</span>
+        <span class="ticker-item">Bluefin Energy</span>
+        <span class="ticker-dot">·</span>
+        <span class="ticker-item">Competro Oil Depot</span>
+        <span class="ticker-dot">·</span>
+        <span class="ticker-item">ASAD Lubricants</span>
+        <span class="ticker-dot">·</span>
+        <span class="ticker-item">Ranogaz Company Limited</span>
+        <span class="ticker-dot">·</span>
+        <span class="ticker-item">Enugu State Government</span>
+        <span class="ticker-dot">·</span>
+        <span class="ticker-item">TPS Export — UK</span>
+        <span class="ticker-dot">·</span>
+        <span class="ticker-item">Born of Grace Consults — USA</span>
+        <span class="ticker-dot">·</span>
+        <!-- duplicate for seamless loop -->
+        <span class="ticker-item">Matrix Energy Limited</span>
+        <span class="ticker-dot">·</span>
+        <span class="ticker-item">NNPC Retail Limited</span>
+        <span class="ticker-dot">·</span>
+        <span class="ticker-item">OVH Energy Marketing</span>
+        <span class="ticker-dot">·</span>
+        <span class="ticker-item">Pinnacle Oil &amp; Gas FZE</span>
+        <span class="ticker-dot">·</span>
+        <span class="ticker-item">AA Rano Nigeria Limited</span>
+        <span class="ticker-dot">·</span>
+        <span class="ticker-item">Aida Energy Limited</span>
+        <span class="ticker-dot">·</span>
+        <span class="ticker-item">Salbas Oil &amp; Gas</span>
+        <span class="ticker-dot">·</span>
+        <span class="ticker-item">Keonamex Petroleum</span>
+        <span class="ticker-dot">·</span>
+        <span class="ticker-item">Bluefin Energy</span>
+        <span class="ticker-dot">·</span>
+        <span class="ticker-item">Competro Oil Depot</span>
+        <span class="ticker-dot">·</span>
+        <span class="ticker-item">ASAD Lubricants</span>
+        <span class="ticker-dot">·</span>
+        <span class="ticker-item">Ranogaz Company Limited</span>
+        <span class="ticker-dot">·</span>
+        <span class="ticker-item">Enugu State Government</span>
+        <span class="ticker-dot">·</span>
+        <span class="ticker-item">TPS Export — UK</span>
+        <span class="ticker-dot">·</span>
+        <span class="ticker-item">Born of Grace Consults — USA</span>
+        <span class="ticker-dot">·</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== CTA BANNER ===================== -->
+  <section class="cta-banner reveal">
+    <h2>Ready to Execute Your Next Engineering or Tank Farm Project?</h2>
+    <p>Consult with our lead project engineers today for technical design, feasibility evaluation, or contract bidding.</p>
+    <div class="cta-btns">
+      <a href="contact.html" class="btn btn-outline-white">Contact Our Engineering Team</a>
+      <a href="tel:+2348061380411" class="btn btn-outline-white">Call: +234 806 138 0411</a>
+    </div>
+  </section>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="footer">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-logo"><img src="images/logo.png" alt="Stratech Project Solutions" /></div>
+        <p class="footer-tagline">"Providing that professional touch..."</p>
+        <p class="footer-rc">RC: 1480656 &nbsp;·&nbsp; Incorporated under CAMA 1990</p>
+      </div>
+      <div>
+        <h4>Services</h4>
+        <ul>
+          <li><a href="services.html">Engineering Design</a></li>
+          <li><a href="services.html">Tank Farm Construction</a></li>
+          <li><a href="services.html">Civil &amp; Foundation Works</a></li>
+          <li><a href="services.html">Floating Roof Installation</a></li>
+          <li><a href="services.html">Maintenance &amp; TAM</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="about.html#projects">Our Projects</a></li>
+          <li><a href="about.html#clients">Clients &amp; Partners</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <div class="footer-contact">
+          <p>
+            <span class="footer-office-label">Lagos — Head Office</span>
+            15 Ajao Road off Adeniyi Jones Avenue,<br />Ikeja, Lagos State, Nigeria
+          </p>
+          <p>
+            <span class="footer-office-label">Warri — Branch Office</span>
+            Golden Kite Street, Disney Estate,<br />Refinery Road, Effurun, Warri, Delta State
+          </p>
+          <p>
+            <a href="tel:+2348061380411">+234 806 138 0411</a><br />
+            <a href="tel:+2348069332789">+234 806 933 2789</a><br />
+            <a href="tel:+2347064632375">+234 706 463 2375</a>
+          </p>
+          <p>
+            <a href="mailto:stratechprojectsolutions@gmail.com">stratechprojectsolutions@gmail.com</a><br />
+            <a href="mailto:stratech_projects@yahoo.com">stratech_projects@yahoo.com</a>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2025 Stratech Project Solutions Limited. All Rights Reserved.</span>
+      <span>NUPRC Registered &nbsp;·&nbsp; NMDPRA Certified</span>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
